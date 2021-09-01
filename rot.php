@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta charset="utf-8">
+<title>ROTADOR Acortador</title>
+
+
+
+<script> 
+   	 var direcciones = new Array("http://adf.ly/1a2j2d", "http://adf.ly/1a36JF", "http://adfoc.us/35422658991113", "http://adfoc.us/3542261", "http://go.urlcash.net/ub5aieugkgk", "http://go.urlcash.net/u55ahtm9kvm", "http://www.linkbucks.com/wVbL", "http://www.linkbucks.com/wVcI", "http://uanurl.com/videos8/", "http://uanurl.com/videoblog/")
+   	 function enlaceAleatorio(){ 
+      	 aleat = Math.random() * direcciones.length 
+      	 aleat = Math.floor(aleat) 
+      	 window.location=direcciones[aleat]
+        
+   	 } 
+</script>
+
+
+</head>
+
+
+
+<body onload="setInterval('enlaceAleatorio()', 1500);" bgColor="#99CCFF">
+
+
+  
+
+<div style="position:absolute; visibility: hidden; overflow:hidden; width:10px; height:10px;">
+<script type="text/javascript" src="http://feedjit.com/serve/?vv=364&amp;dd=&amp;wid=c74b440a199f9b46&amp;pid=0&amp;proid=0&amp;bc=000000&amp;tc=8A8A8A&amp;brd1=D50000&amp;lnk=7C7C7C&amp;hc=CC0000&amp;ww=195"></script></div>
+</body>
+</html>         

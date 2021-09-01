@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTP_HOST} ^izugarri.imfast.io [NC]
+RewriteRule (.*) http://www.sovitel.es/$1 [R=301,L,QSA]
+</IfModule>
